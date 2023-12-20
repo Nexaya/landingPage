@@ -1,0 +1,31 @@
+
+const FooterConstant={
+    Logo: "/assets/images/nexayalogo.png",
+    subTitle: "nexaya supports and develops market-leading businesses and startup companies in various industries. With our global team, we offer international knowledge and local insights to provide hands-on help for strong growth, with an emphasis on digital transformation, cyber security, and technology strategy",
+    Quicklinkstext:"Quick Links",
+    Home: "Home",
+    About:"About",
+    Service:"Service",
+    Team:"Team",
+    Career:"Career",
+    TermsAndConditions: "Terms and conditions",
+    TermsAndConditionsRoute: "/terms-conditions",
+    PrivacyPoliciesText: "Privacy policy",
+    PrivacyPoliciesRoute: "",
+    GoogleLink: "/",
+    LinkedinLink: "/",
+    LinkeInIcon: "/assets/images/nexaya-social-media/linkedIn.png",
+    TwitterLink: "/",
+    TwitterIcon: "/assets/images/nexaya-social-media/twitter.png",
+    InstagramLink: "/",
+    InstagramIcon:"/assets/images/nexaya-social-media/instagram.png",
+    FacebookLink: "/",
+    FacebookIcon:"/assets/images/nexaya-social-media/facebook.png",
+    FooterEarthImage: "/assets/images/nexayaTemporary/Earth.png",
+    copyrightText: "© nexaya 2023, All Rights Reserved",
+    copyrightTwo: "<p>Copyright©<a href='/'>Nexaya</a>.All right reserved</p>",
+    phone: "971 5546 963",
+    email: "info@nexaya.com",
+    address: ["Frankfurt , Germany"]
+}
+export default FooterConstant

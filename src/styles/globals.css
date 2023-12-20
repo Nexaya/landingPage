@@ -2,26 +2,138 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #0E1B0A;
+  background-image: url('/assets/images/nexaya_common/web_background.png');
+  background-repeat: no-repeat;
+} 
+
+/*
+============================================
+============= Preloader CSS ================
+*/
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background: #0E1B0A;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* utton styles */
+
+.common-btn {
+  border-radius: 10px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 11px 35px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.common-btn:hover {
+  color: #0E1B0A;
+}
+
+.common-btn:hover::before {
+  width: 100%;
+}
+
+.common-btn::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 0;
+  height: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+  z-index: -1;
+}
+
+/*================================================
+13. Hrrd Hero area CSS
+=================================================*/
+/* .hrrd-hero-content h1 {
+  font-size: 70px;
+  line-height: 80px;
+  color: #fff;
+} */
+.hero-background {
+  background-image: url('/assets/images/nexaya_common/web_background.png');
+  overflow: hidden;
+  
+}
+.solutions-blur-image {
+  position: absolute;
+  overflow: hidden;
+  color: #FFFFFF;
+  left: 20%;
+  top: 30%;
+}
+
+/* career styles */
+.career-background {
+  z-index: 0;
+  background-image: url("/assets/images/nexaya-career/career_background.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  height: 100%;
+  padding-bottom: 10%;
+}
+/* team styles */
+
+.team-background {
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  background-image: url("/assets/images/nexaya-team/team-background.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  height: 100%;
+  padding-bottom: 10%;
+}
+/* ALl Servcies style */
+.service-background {
+  z-index: 0;
+  background-image: url("/assets/images/nexaya-services/headers/cyber_security_service.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  height: 100%;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+}
+
+/* At Nexaya Section */
+.at-nexaya-background {
+  background-image: url('/assets/images/nexaya_common/web_background.png');
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+.all-services-background {
+  background-image: url('/assets/images/nexaya-services/backgrounds/services-image.png');
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 70px; 
 }
