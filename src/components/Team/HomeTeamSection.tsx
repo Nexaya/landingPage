@@ -21,7 +21,7 @@ function HomeTeamSection() {
         <div className="col-start-1 col-span-8 md:col-start-7 md:col-span-2 lg:col-start-7 lg:col-span-2 xl:col-start-7 xl:col-span-2 pl-6 md:pl-20 md:pt-10 lg:pr-[22%] lg:pt-10 xl:pl-20 xl:pr-[22%] xl:pt-10 text-bold w-full mt-0">
           <Link href={"/team/all"} className="text-white bg-[#33971F] h-[100%]">
             <Button
-              className="bg-primary-green text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="bg-[#33971F] text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               variant="contained"
               sx={{ "&:hover": { backgroundColor: "#33971F" } }}
             >

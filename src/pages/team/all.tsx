@@ -18,6 +18,7 @@ function AllTeams() {
         customStyles={"team-background"}
       />
       </header>
+      
       <TeamWelcomeSection />
       <AllTeamSection />
       <Footer />

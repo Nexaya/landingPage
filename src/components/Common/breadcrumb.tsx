@@ -62,10 +62,10 @@ const BreadCrumb = (props: {
                   Home
                 </span>
               </Link>{" "}
-              <span className="text-sm md:text-xl text-[#33971F] breadcrumb-nav-direction">
+              <span className="text-sm md:text-xl text-[#33971F] font-bold breadcrumb-nav-direction">
                 {">"}
               </span>{" "}
-              <span className="text-sm md:text-xl breadcrumb-nav-direction">
+              <span className="text-sm md:text-xl text-[#FFFFFF] font-bold breadcrumb-nav-direction">
                 {props.pagename}
               </span>
             </p>

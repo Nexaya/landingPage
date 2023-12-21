@@ -15,7 +15,7 @@ function HomeServiceSection() {
             </h1>
           </div>
         </div>
-        <div className="grid grid-cols-8 gap-4 p-[2%] mt-5 bg-[#CEF6C1]/5 bg-transparent border-[1px] border-[#33971F] rounded-lg w-[80%] md:h-2/5 md:w-screen lg:w-[80%] lg:h-2/5">
+        <div className="grid grid-cols-8 gap-4 ml-[6%] md:ml-0 lg:ml-0 xl:ml-0 p-[2%] md:p-[2%] lg:p-[2%] mt-5 bg-[#CEF6C1]/5 bg-transparent border-[1px] border-[#33971F] rounded-lg w-[80%] md:h-2/5 md:w-screen lg:w-[80%] lg:h-2/5">
           <div className="relative top-[-13%] md:hidden md:top-[10%] lg:top-[-4%] left-[-300%] hidden md:block lg:block xl:block md:pl-[-160%] md:w-[350%] md:h-[50%] md:ml-[-50%] lg:pl-[-160%] lg:w-[350%] lg:h-[50%] lg:ml-[-30%]">
             <Image
               src={`${HomeOffersDetail[3].leftImageLink}`}
@@ -24,7 +24,7 @@ function HomeServiceSection() {
               height={500}
             />
           </div>
-          <div className="col-start-1 col-span-8 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-2 xl:col-start-2 xl:col-span-2 p-4 text-bold bg-[#33971F] rounded-lg">
+          <div className="col-start-1 col-span-8 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-2 xl:col-start-2 xl:col-span-2 p-4 md:p-4 lg:p-4 xl:p-4 text-bold bg-[#33971F] rounded-lg">
             <Image
               src={`${HomeOffersDetail[0].icon}`}
               alt={"Nexaya As Tech Partner Icon"}
