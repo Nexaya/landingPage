@@ -6,9 +6,9 @@ import AboutNexayaDetail from "../../constant/AboutNexaya/AboutNexaya";
 function AboutSection1() {
   return (
     <>
-      <div className="bg-white w-full">
-        <div className="grid grid-cols-6 gap-4 md:pl-0 lg:pl-0 mt-[-7%] lg:mt-[-4%] md:mt-[-4%] bg-white pt-[10%] mt-[-4%]">
-          <div className="hidden md:grid lg:grid col-start-1 col-span-1 md:col-span-1 lg:col-span-1 ml-[-8%]">
+      <div className="bg-white w-screen">
+        <div className="grid grid-cols-6 gap-4 mb-[10%] md:mb-[5%] md:pl-0 lg:pl-0 mt-[-7%] lg:mt-[-4%] md:mt-[-4%] bg-white pt-[10%] mt-[-4%] w-full md:w-full md:pb-5 md:pr-0 lg:pb-10 lg:pr-0">
+          <div className="hidden md:grid lg:grid col-start-1 col-span-1 md:col-span-1 lg:col-span-1 ml-[-8%] md:ml-0">
             <Image
               src={AboutNexayaDetail.leftImage}
               alt=""
@@ -17,9 +17,8 @@ function AboutSection1() {
               className=""
             />
           </div>
-          <div className="col-start-2 col-span-6 md:col-span-4 lg:col-span-3">
+          <div className="col-start-2 col-span-6 md:col-span-4 lg:col-span-3 w-[80%] md:w-full lg:w-full">
             <h1 className="text-base font-bold md:text-2xl lg:text-4xl pb-2">
-              {" "}
               {AboutNexayaDetail.TechRevolutionTitle}
             </h1>
             <p className="text-lightText">
@@ -27,9 +26,8 @@ function AboutSection1() {
               {AboutNexayaDetail.TechRevolutionText}
             </p>
           </div>
-          <div className="col-start-2 col-span-6 md:col-span-4 md:col-start-2 md:mt-[-10%] lg:col-span-3 lg:col-start-2 lg:mt-[-10%]">
+          <div className="col-start-2 col-span-6 md:col-span-4 md:col-start-2 md:mt-[-10%] lg:col-span-3 lg:col-start-2 lg:mt-[-10%] w-[80%] md:w-full lg:w-full xl:w-full">
             <h1 className="text-base font-bold md:text-2xl lg:text-4xl pb-2">
-              {" "}
               {AboutNexayaDetail.BuildingAfricaTitle}
             </h1>
             <p className="text-lightText">
@@ -37,7 +35,7 @@ function AboutSection1() {
               {AboutNexayaDetail.BuildingAfricaText}
             </p>
           </div>
-          <div className="col-start-2 col-span-6 md:col-span-2 md:col-start-2 lg:col-span-2 lg:col-start-2">
+          <div className="col-start-2 col-span-6 md:col-span-2 md:col-start-2 lg:col-span-2 lg:col-start-2 w-[80%] md:w-full lg:w-full xl:w-full">
             <Link href="/" className="">
               <Image
                 src={AboutNexayaDetail.MissionImage}
@@ -52,7 +50,7 @@ function AboutSection1() {
             </h2>
             <p className="text-lightText">{AboutNexayaDetail.MissionsText}</p>
           </div>
-          <div className="col-start-2 col-span-6 md:col-span-2 md:col-start-4 lg:col-span-2 lg:col-start-4 ...">
+          <div className="col-start-2 col-span-6 md:col-span-2 md:col-start-4 lg:col-span-2 lg:col-start-4 w-[80%] md:w-full lg:w-full xl:w-full">
             <Link href="/" className="">
               <Image
                 src={AboutNexayaDetail.VisionImage}

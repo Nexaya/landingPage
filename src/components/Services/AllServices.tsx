@@ -17,7 +17,7 @@ function AllServicesSection() {
             digital transformation journey!
           </p>
         </div>
-        <div className="col-start-2 col-span-4 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-2 xl:col-start-2 xl:col-span-2 p-4 text-bold bg-[#FFFFFF] rounded-lg">
+        <div className="col-start-1 col-span-5 ml-[9%] md:ml-0 lg:ml-0 xl:ml-0 md:col-start-2 md:col-span-2 lg:col-start-2 lg:col-span-2 xl:col-start-2 xl:col-span-2 p-4 text-bold bg-[#FFFFFF] rounded-lg">
           <Image
             src={`${NexayaServicesDetails[0].icon}`}
             alt={"Nexaya Business Advisory Icon"}
@@ -28,7 +28,7 @@ function AllServicesSection() {
             {NexayaServicesDetails[0].title}
           </h1>
           <Link
-            href={`/services/:${NexayaServicesDetails[0].id}`}
+            href={`/services/${NexayaServicesDetails[0].id}`}
             className="text-white bg-[#33971F]"
           >
             <p className="text-xs text-[#8387A8] md:text-sm lg:text-sm">
@@ -37,7 +37,7 @@ function AllServicesSection() {
             </p>
           </Link>
         </div>
-        <div className="col-start-2 col-span-4 md:col-start-4 md:col-span-2 lg:col-start-4 lg:col-span-2 xl:col-start-4 xl:col-span-2 p-4 text-bold bg-[#FFFFFF] rounded-lg">
+        <div className="col-start-1 col-span-5 ml-[9%] md:ml-0 lg:ml-0 xl:ml-0 md:col-start-4 md:col-span-2 lg:col-start-4 lg:col-span-2 xl:col-start-4 xl:col-span-2 p-4 text-bold bg-[#FFFFFF] rounded-lg">
           <Image
             src={`${NexayaServicesDetails[1].icon}`}
             alt={"Nexaya Business Advisory Icon"}
@@ -48,7 +48,7 @@ function AllServicesSection() {
             {NexayaServicesDetails[1].title}
           </h1>
           <Link
-            href={`/services/:${NexayaServicesDetails[1].id}`}
+            href={`/services/${NexayaServicesDetails[1].id}`}
             className="text-white bg-[#33971F]"
           >
             <p className="text-xs text-[#8387A8] md:text-sm lg:text-sm">
@@ -57,7 +57,7 @@ function AllServicesSection() {
             </p>
           </Link>
         </div>
-        <div className="col-start-2 col-span-4 md:col-start-2 md:col-span-2 lg:col-start-1 lg:col-span-2 xl:col-start-1 xl:col-span-2 p-4 text-bold bg-[#FFFFFF] rounded-lg">
+        <div className="col-start-1 col-span-5 ml-[9%] md:ml-0 lg:ml-0 xl:ml-0 md:col-start-2 md:col-span-2 lg:col-start-1 lg:col-span-2 xl:col-start-1 xl:col-span-2 p-4 text-bold bg-[#FFFFFF] rounded-lg">
           <Image
             src={`${NexayaServicesDetails[2].icon}`}
             alt={"Nexaya Business Advisory Icon"}
@@ -68,7 +68,7 @@ function AllServicesSection() {
             {NexayaServicesDetails[2].title}
           </h1>
           <Link
-            href={`/services/:${NexayaServicesDetails[2].id}`}
+            href={`/services/${NexayaServicesDetails[2].id}`}
             className="text-white bg-[#33971F]"
           >
             <p className="text-xs text-[#8387A8] md:text-sm lg:text-sm">
@@ -77,7 +77,7 @@ function AllServicesSection() {
             </p>
           </Link>
         </div>
-        <div className="col-start-2 col-span-4 md:col-start-4 md:col-span-2 lg:col-start-3 lg:col-span-2 xl:col-start-3 xl:col-span-2 p-4 text-bold bg-[#FFFFFF] rounded-lg">
+        <div className="col-start-1 col-span-5 ml-[9%] md:ml-0 lg:ml-0 xl:ml-0 md:col-start-4 md:col-span-2 lg:col-start-3 lg:col-span-2 xl:col-start-3 xl:col-span-2 p-4 text-bold bg-[#FFFFFF] rounded-lg">
           <Image
             src={`${NexayaServicesDetails[3].icon}`}
             alt={"Nexaya Business Advisory Icon"}
@@ -88,7 +88,7 @@ function AllServicesSection() {
             {NexayaServicesDetails[3].title}
           </h1>
           <Link
-            href={`/services/:${NexayaServicesDetails[3].id}`}
+            href={`/services/${NexayaServicesDetails[3].id}`}
             className="text-white bg-[#33971F]"
           >
             <p className="text-xs text-[#8387A8] md:text-sm lg:text-sm">

@@ -1,7 +1,8 @@
+import React from "react";
 import BreadCrumb from "@/components/Common/breadcrumb";
 import Footer from "@/components/Layout/footer";
 import Header from "@/components/Layout/header";
-import React from "react";
+import NexayaServicesDetails from "@/constant/Services/AllServicesItems";
 
 function AllServices() {
   return (

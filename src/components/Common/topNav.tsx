@@ -38,7 +38,7 @@ function TopNav() {
             className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
           >
             <svg
-              className={`bg-primary-green h-10 w-15 ${
+              className={`bg-primary-green h-8 w-10 ${
                 isOpen ? "hidden" : "block"
               }`}
               viewBox="0 0 20 20"
@@ -47,7 +47,7 @@ function TopNav() {
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
             <svg
-              className={`bg-primary-green h-10 w-15 ${
+              className={`bg-primary-green h-8 w-10 ${
                 isOpen ? "block" : "hidden"
               }`}
               viewBox="0 0 20 20"
@@ -60,7 +60,7 @@ function TopNav() {
         <div
           className={`w-[80%] pl-10 block flex-grow lg:flex lg:items-center lg:w-auto ${
             isOpen
-              ? "block bg-[#0E1B0A] fixed z-[10000] top-[9%] left-[0%] w-[70%] ml-0 font-bold"
+              ? "bg-[#0E1B0A] fixed z-[10000] top-[9%] left-[0%] w-[50%] h-full ml-0 font-bold p-10 overflow-hidden text-center"
               : "hidden"
           }`}
         >
@@ -99,7 +99,7 @@ function TopNav() {
           <div className="common-btn btn-hrrd-1 text-white">
             <Button
               onClick={handleOpen}
-              className="inline-flex items-center bg-primary-green border-0 py-2 px-4 text-white"
+              className="inline-flex items-center bg-[#33971F] border-0 py-2 px-4 text-white"
             >
               {" "}
               Contact Us
@@ -119,17 +119,17 @@ function TopNav() {
             >
               <Fade in={open}>
                 <Box sx={ModalStyle}>
-                  <Typography
-                    id="transition-modal-title"
-                    variant="h6"
-                    component="h2"
-                  >
-                    Text in a modal
-                  </Typography>
-                  <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-                    Duis mollis, est non commodo luctus, nisi erat porttitor
-                    ligula.
-                  </Typography>
+                 <div className="grid grid-cols-3 gap-4">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                 </div>
                 </Box>
               </Fade>
             </Modal>

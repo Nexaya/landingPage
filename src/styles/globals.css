@@ -137,3 +137,17 @@ body {
   background-repeat: no-repeat;
   border-bottom-right-radius: 70px; 
 }
+
+/* Harmburger  */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background: #0E1B0A;
+  z-index: 99;
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.01);
+          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.01);
+  padding-top: unset;
+}
